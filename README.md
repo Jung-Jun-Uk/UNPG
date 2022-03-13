@@ -3,8 +3,8 @@ Unified Negative Pair Generation toward
 Well-discriminative Feature Space for Face
 Recognition, arXiv, 2022
 
-![alt text](_images/geo_intro.png)
-![alt text](_images/multi_vs_uni.png)
+![](_images/geo_intro.png)
+<img src="https://github.com/Jung-Jun-Uk/UNPG/blob/main/_images/multi_vs_uni.png  width="200" height="400"/>
 
 ## Data prepration
 
