@@ -5,7 +5,7 @@ Recognition, arXiv, 2022
 
 ![](_images/geo_intro.png)
 <p align="center">
-<img src="_images/multi_vs_uni.png"  width="500" height="500"/>
+<img src="_images/multi_vs_uni.png"  width="300" height="300"/>
 </p>
 
 ## Data prepration
