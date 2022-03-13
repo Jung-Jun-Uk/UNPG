@@ -56,14 +56,6 @@ Please apply for permissions from [NIST](https://www.nist.gov/programs-projects/
 
 ### Pretrained Model
 
-<style>    
-    .heatMap tr:nth-child(5) { background: grey; }
-    .heatMap tr:nth-child(7) { background: grey; }
-    .heatMap tr:nth-child(9) { background: grey; }
-</style>
-
-<div class="heatMap">
-
 |Method|IJB-B(1e-4)|IJB-C(1e-4)|MegaFace (Rank-1 acc.)|LFW|Path|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Circle-loss*|-|93.95|98.50|99.73|-|
@@ -75,8 +67,6 @@ Please apply for permissions from [NIST](https://www.nist.gov/programs-projects/
 |ArcFace+UNPG|95.04|96.33|98.82|**99.83**|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EZlqt0175BVFmG0VvsnhNc8Bym9e18BHt0mrsDXAuk9eMw?e=h75aWI)|
 |MagFace|93.99|95.54|98.51|99.81|-|
 |MagFace+UNPG|**95.21**|96.38|98.03|99.81|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EYPx3wZNc3xMkULR7RpIgK0BK0UY_iHs6oZnkg49Xm21sw)|
-
-</div>
 
 
 ```bash
