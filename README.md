@@ -56,12 +56,28 @@ Please apply for permissions from [NIST](https://www.nist.gov/programs-projects/
 
 ### Pretrained Model
 
-|Loss|Backbone|Dataset|Model|
-|:---:|:---:|:---:|:---:|
-|ArcFace|R100|MS1MV2|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EZlqt0175BVFmG0VvsnhNc8Bym9e18BHt0mrsDXAuk9eMw?e=h75aWI)|
-|CosFace|R100|MS1MV2|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EfQrB42yUHlIpy_G-tg7UH4BedVBFywGVRivRTwzkzyeRQ?e=xJ6T48)|
-|MagFace|R100|MS1MV2|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EYPx3wZNc3xMkULR7RpIgK0BK0UY_iHs6oZnkg49Xm21sw)|
-|ArcFace|R34|KFACE|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/ETm5sPGktupEj0Om7U9DzmcBjWLR3r-KLK8pf-q-MflvwQ?e=MBE4KG)|
+<style>    
+    .heatMap tr:nth-child(5) { background: grey; }
+    .heatMap tr:nth-child(7) { background: grey; }
+    .heatMap tr:nth-child(9) { background: grey; }
+</style>
+
+<div class="heatMap">
+
+|Method|IJB-B(1e-4)|IJB-C(1e-4)|MegaFace (Rank-1 acc.)|LFW|Path|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Circle-loss*|-|93.95|98.50|99.73|-|
+|ArcFace*|94.20|95.60|98.35|99.82|-|
+|MagFace*|94.51|95.97|-|**99.83**|-|
+|CosFace|94.39|96.35|99.08|**99.83**|-|
+|CosFace+UNPG|94.99|**96.39**|**99.27**|99.81|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EfQrB42yUHlIpy_G-tg7UH4BedVBFywGVRivRTwzkzyeRQ?e=xJ6T48)|
+|ArcFace|94.89|96.25|98.56|**99.83**|-|
+|ArcFace+UNPG|95.04|96.33|98.82|**99.83**|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EZlqt0175BVFmG0VvsnhNc8Bym9e18BHt0mrsDXAuk9eMw?e=h75aWI)|
+|MagFace|93.99|95.54|98.51|99.81|-|
+|MagFace+UNPG|**95.21**|96.38|98.03|99.81|[link](https://koreatechackr-my.sharepoint.com/:u:/g/personal/rnans33_koreatech_ac_kr/EYPx3wZNc3xMkULR7RpIgK0BK0UY_iHs6oZnkg49Xm21sw)|
+
+</div>
+
 
 ```bash
 cd recognition

@@ -1,0 +1,16 @@
+
+train:
+  dataset: ms1m  
+  data_path: /home/jju/datasets/FACE/MS1MV2
+  # data_path: /data/data_server/jju/datasets/FACE/MS1MV2
+  preprocessed_file: data/ms1mv2.pickle 
+  min_img: 0
+  img_size: 112
+
+test:
+  dataset: bin
+  root: /data/data_server/jju/datasets/FACE/faces_emore  
+  file_names: lfw.bin
+  
+  metric: best_th  # roc or best_th
+  img_size: 112

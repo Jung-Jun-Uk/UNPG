@@ -1,0 +1,7 @@
+test:
+  dataset: bin
+  root: /data/data_server/jju/datasets/FACE/faces_emore
+  file_names: [lfw.bin, cfp_fp.bin, agedb_30.bin, calfw.bin, cplfw.bin]
+    
+  metric: best_th  # roc or best_th
+  img_size: 112

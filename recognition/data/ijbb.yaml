@@ -1,0 +1,10 @@
+test:
+  dataset: ijbb
+  # root: /data/data_server/jju/datasets/FACE/IJB2/IJBB  
+  root: /data/data_server/jju/datasets/FACE/IJB2/IJBB  
+  inf_list: meta/img.list
+  media_txt: meta/ijbb_face_tid_mid.txt
+  pair_label_txt: meta/ijbb_template_pair_label.txt
+  
+  metric: 'roc'
+  img_size: 112
