@@ -1,3 +1,11 @@
+## UNPG
+Unified Negative Pair Generation toward
+Well-discriminative Feature Space for Face
+Recognition, arXiv, 2022
+
+![alt text](_images/geo_intro.png)
+![alt text](_images/multi_vs_uni.png)
+
 ## Data prepration
 
 ### [MS1MV2](https://arxiv.org/abs/1801.07698)
