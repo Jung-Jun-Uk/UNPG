@@ -55,7 +55,7 @@ Please apply for permissions from [NIST](https://www.nist.gov/programs-projects/
 ## Evaluation
 
 #### Performance on public benchmark datasets with [ResNet](https://arxiv.org/abs/1512.03385)-100
-|Method|IJB-B(1e-5)|IJB-B(1e-4)|IJB-C(1e-5)|IJB-C(1e-4)|MegaFace (Rank-1 acc.)|LFW|Path|
+|Method|IJB-B<br>(1e-5)|IJB-B<br>(1e-4)|IJB-C<br>(1e-5)|IJB-C<br>(1e-4)|MegaFace<br>(Rank-1 acc)|LFW|Path|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Circle-loss*](https://arxiv.org/abs/2002.10857)|-|-|-|93.95|98.50|99.73|-|
 |[ArcFace*](https://arxiv.org/abs/1801.07698)|-|94.20|-|95.60|98.35|99.82|-|
@@ -80,7 +80,7 @@ python evaluation.py --weights 'face.r100.cos.unpg.wisk1.5.pt' --data 'ijbc.yaml
 ```
 
 #### Performance on [K-FACE test datasets (Q1-Q4)](https://arxiv.org/abs/2111.01717) with ResNet-34
-|Method|Q4(1e-5)|Q4(1e-4)|Q3(1e-5)|Q3(1e-4)|Q2(1e-5)|Q2(1e-4)|Q1(1e-3)|Q1(1e-2)|Path|
+|Method|Q4<br>(1e-5)|Q4<br>(1e-4)|Q3<br>(1e-5)|Q3<br>(1e-4)|Q2<br>(1e-5)|Q2<br>(1e-4)|Q1<br>(1e-3)|Q1<br>(1e-2)|Path|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |ArcFace|0.05|0.29|2.06|4.40|26.56|41.29|94.00|**100**|-|
 |[SN-pair](https://arxiv.org/abs/2111.01717)|3.50|7.21|17.67|21.16|21.93|33.26|91.80|97.60|-|
