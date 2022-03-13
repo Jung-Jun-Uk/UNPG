@@ -4,7 +4,9 @@ Well-discriminative Feature Space for Face
 Recognition, arXiv, 2022
 
 ![](_images/geo_intro.png)
-<img src="https://github.com/Jung-Jun-Uk/UNPG/blob/main/_images/multi_vs_uni.png  width="200" height="400"/>
+<p align="center">
+<img src="_images/multi_vs_uni.png"  width="500" height="500"/>
+</p>
 
 ## Data prepration
 
