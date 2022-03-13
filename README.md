@@ -1,7 +1,7 @@
 ## UNPG
 Unified Negative Pair Generation toward
 Well-discriminative Feature Space for Face
-Recognition, arXiv, 2022
+Recognition
 
 ![](_images/geo_intro.png)
 <p align="center">
