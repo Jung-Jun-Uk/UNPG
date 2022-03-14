@@ -102,7 +102,7 @@ python evaluation.py --weights 'kface.r34.arc.unpg.wisk1.0.pt' --data 'kface.yam
 cd recognition
 
 # example 
-python train.py --model 'iresnet-34' --head 'arcface' --unpg_wisk 1.0 --data 'data/face.yaml' --hyp 'data/hyp.yaml' --name 'example' --device 0,1
+python train.py --model 'iresnet-100' --head 'arcface' --aux 'unpg' --data 'data/face.yaml' --hyp 'data/hyp.yaml' --name 'example' --device 0,1
 ```
 
 #### Example script (KFACE)
@@ -110,5 +110,5 @@ python train.py --model 'iresnet-34' --head 'arcface' --unpg_wisk 1.0 --data 'da
 cd recognition
 
 # example 
-python train.py --model 'iresnet-34' --head 'arcface' --unpg_wisk 1.0 --data 'data/kface.yaml' --hyp 'data/hyp.yaml' --name 'example' --device 0,1
+python train.py --model 'iresnet-34' --head 'arcface' --aux 'unpg' --data 'data/kface.yaml' --hyp 'data/hyp.yaml' --name 'example' --device 0,1
 ```
