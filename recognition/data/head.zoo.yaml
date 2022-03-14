@@ -1,66 +1,10 @@
 arcface: 
   s: 64.
   m: 0.5  
-  #m: 0.3926
-
-arcface2: 
-  s: 64.
-  m: 0.5  
-
-arcface3: 
-  s: 64.
-  m: 0.5
-
-arcbox: 
-  s: 64.
-  m: 0.5
-
-arcgrad: 
-  s: 64.
-  m: 0.5
-
-arcmean: 
-  s: 64.
-  m: 0.5
   
-arcmultiply: 
-  s: 64.
-  m: 0.5  
-  #m: 0.3926
 cosface:
   s: 64.
   m: 0.5
-
-sn-pair-loss:
-  s: 64.
-
-ms-loss:
-  scale_pos: 2
-  scale_neg: 40
-  use_miner: True
-
-mixface:
-  e: 1e-22
-  s1: 64.
-  s2: 64.
-  m: 0.5
-  easy_margin: False
-
-arcwithsn:
-  s: 64.
-  m: 0.5  
-
-arc-circle:
-  s: 64.
-  m: 0.5  
-
-arc-cir-withsn:
-  s: 64.
-  m: 0.5
-
-circle-loss:
-  m: 0.25
-  gamma: 128
 
 magface:
   s: 64
@@ -70,39 +14,6 @@ magface:
   u_a: 110
   lambda_g: 35
 
-magwithsn:
-  s: 64
-  l_margin: 0.40
-  u_margin: 0.8
-  l_a: 10
-  u_a: 110
-  lambda_g: 35
-
-myface:
-  s: 64.
-  m: 0.25
-
-arcshift:
-  s: 64.
-  m: 0.25  
-
 unpg:
   wisk: 1.5
   
-unpgfw:
-  wisk: 1.0  
-
-unpgfw2:
-  wisk: 1.0
-
-unpgfw3:
-  wisk: 0.0
-
-unpg_ff_fw:
-  wisk: 1.0
-
-unpg_fw:
-  wisk: 1.0
-
-unpg_fw_chunk:
-  wisk: 1.0
